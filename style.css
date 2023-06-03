@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+nav a{
+  padding: 10px;
+  background-color: gray;
+
+}
+  #featured-property{
+  text-align: center;
+}
+
+#featured-property p{
+  width: 800px;
+} 
+#featured-property {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+p {
+  margin: 10px 0;
+  line-height: 1.5;
+   width: px; 
+}
+figure {
+  margin-bottom: 20px;
+}
+#details {
+  display: flex;
+  flex-wrap: wrap;
+}
+#details > div {
+  flex: 1 1 300px;
+   background-color: red;
+}
